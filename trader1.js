@@ -10,7 +10,7 @@ const MIN_PROFIT_USDC = 0.02;            // Minimum profit after fees
 const COOLDOWN_MS = 15000;               // Cooldown after each trade
 
 // --- STATE ---
-let lastBuyPrice = 0;
+let lastBuyPrice = 0.045;// very important
 let inFlight = false;
 let lastTradeTime = 0;
 let priceHistory = [];
